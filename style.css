@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 520px;
+  background: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #444;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+#previewImage {
+  width: 100%;
+  display: none;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+#analysisList {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.paymentBox {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.qr {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.formLink {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+}

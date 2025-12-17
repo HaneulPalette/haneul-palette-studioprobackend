@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Haneul Studio Pro – Premium Analysis</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <img src="logo.png" class="logo" alt="Haneul Logo">
+
+  <h1>Haneul Studio Pro</h1>
+  <p class="price">Premium Online Analysis • ₹2499 (One-time)</p>
+
+  <!-- Upload -->
+  <input type="file" id="imageUpload" accept="image/*">
+
+  <!-- Preview -->
+  <img id="previewImage">
+
+  <!-- Analyse -->
+  <button id="analyseBtn" disabled>Analyse My Photo</button>
+
+  <!-- Results -->
+  <div id="results" class="hidden">
+    <h2>Analysis Preview</h2>
+    <ul id="analysisList"></ul>
+
+    <div class="paymentBox">
+      <h3>Unlock Full PDF – ₹2499</h3>
+
+      <img src="upi-qr.png" class="qr" alt="UPI QR">
+
+      <p>After payment, upload screenshot:</p>
+
+      <a class="formLink"
+         href="https://forms.gle/DCBX674XEEmjBEL18"
+         target="_blank">
+        Upload Payment Proof
+      </a>
+
+      <button id="downloadPdfBtn">
+        Download Full Report
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
